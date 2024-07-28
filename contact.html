@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="styless.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo"><img src="New Project/images/logoo.png" alt="AQUA LIFE Logo"></div>
+        <nav>
+            <div class="menu-toggle">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" class="highlight">Contact Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html" class="highlight">Contact Now</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="contact">
+            <h1>Contact for Sales and Services</h1>
+        </div>
+        <div class="qr">
+            <img src="New Project/images/QR.jpg" alt="Contact now QR Code">
+        </div>
+        <div class="txt">
+            <p>Contact with Us - Your Path to Pure Water Starts Here!</p>
+        </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 AQUA LIFE. All rights reserved.</p>
+    </footer>
+    <script>
+      document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.mobile-menu').classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
