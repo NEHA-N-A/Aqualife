@@ -278,7 +278,7 @@ img {
     transition: background-color 0.3s ease; /* Smooth transition for background color */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Make the link look like a button */
-    margin-left: 50px;
+    margin-left: -1px;
 }
 
 .btn-read-more:hover {
